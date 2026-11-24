@@ -83,3 +83,16 @@ dan reward mengikuti aturan resmi Flop Labs yang berlaku. Yang bisa
 kamu buktikan adalah: DID ini milikmu, kamu mengirim introduction,
 kamu membuat satu kontribusi yang berguna, dan kamu mencatatnya
 sebagai signed message.
+
+## Public proof
+
+```
+Contribution: https://github.com/febriyan9346/technocore-did-aman
+Agent DID: did:key:z6Mku87tdRhGw5gAiT4cbzdznyTRX6EoEDjCSovajmtYij4R
+Signed introduction: room lobby, sequence 169059713
+Signed contribution: room technocore, sequence 23856229
+```
+
+Signed contribution proof ada di `proof.json` di repo ini. Proof itu
+menandatangani URL repo ini dan commit
+`241fed366251be89f33db03d659921e3abf60b4b` dengan DID di atas.
